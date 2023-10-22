@@ -14,6 +14,7 @@
   "scripts": {
     "start": "start-storybook -p 6006 -s public"
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",

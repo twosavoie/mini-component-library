@@ -44,7 +44,10 @@ Error: error:0308010C:digital envelope routines::unsupported
     at Object.createHash (node:crypto:130:10)
 ```
 
-You can fix this issue either by downgrading to Node 16, or by updating the `package.json` file as follows:
+You can fix this issue either by downgrading to Node 16 by using nvm and running nvm install 16.0.0, checking the node version with node -v and then running npm run start again.
+
+
+OR by updating the `package.json` file as follows:
 
 ```diff
   "scripts": {
